@@ -111,9 +111,19 @@ LinkedIn: linkedin.com/in/Shubhamkamble
 Add screenshots/ and include examples of:
 
 Home page
+<img width="1898" height="940" alt="image" src="https://github.com/user-attachments/assets/9c64ecee-1f15-4cd9-9a23-080b2247c442" />
 
 Register/Login
+<img width="1912" height="947" alt="image" src="https://github.com/user-attachments/assets/1332072d-35dc-4c05-bc26-e37ed6f1b258" />
+
 
 Book List
+<img width="1900" height="922" alt="image" src="https://github.com/user-attachments/assets/ca141027-0e57-4506-b391-26f05c1a30e4" />
+
 
 Add/Edit book
+<img width="1912" height="945" alt="image" src="https://github.com/user-attachments/assets/dfaa30c6-f3d6-413e-94e2-db9612caa228" />
+
+
+<img width="1918" height="928" alt="image" src="https://github.com/user-attachments/assets/f18375f3-089b-4174-a31a-3ac4eb1f6ce5" />
+
