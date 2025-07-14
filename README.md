@@ -53,6 +53,7 @@ A full-stack web application built using **Spring Boot**, **MySQL**, **Thymeleaf
 ---
 
 ## 🗃️ Project Structure
+
 bookstore-management/
 ├── src/
 │ ├── main/
@@ -97,14 +98,14 @@ mvn clean install
 
 # Step 3: Run the Spring Boot app
 mvn spring-boot:run
-Visit http://localhost:8080 in your browser.
+Visit http://localhost:1001 in your browser.
 
 🧑‍💻 Developer Info
 Author: Shubham Kamble
 
-Email: your-email@example.com
+Email: Shubhamkamblea500@gmail.com
 
-LinkedIn: linkedin.com/in/yourprofile
+LinkedIn: linkedin.com/in/Shubhamkamble
 
 📸 Screenshots (Optional)
 Add screenshots/ and include examples of:
