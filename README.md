@@ -27,8 +27,7 @@ A full-stack web application built using **Spring Boot**, **MySQL**, **Thymeleaf
 ---
 
 ## 💡 Features
-
-### 🔐 Authentication
+### 🔐 Authentication   [No Need]
 - User Registration
 - User Login
 - Password validation & error messages
