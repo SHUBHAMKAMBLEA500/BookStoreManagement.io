@@ -86,7 +86,7 @@ bookstore-management/
 
 ### Database Setup
 
-```sql
+sql
 CREATE DATABASE bookstoredb;
 
 # Step 1: Clone the project
