@@ -126,4 +126,3 @@ Add/Edit book
 
 
 <img width="1918" height="928" alt="image" src="https://github.com/user-attachments/assets/f18375f3-089b-4174-a31a-3ac4eb1f6ce5" />
-
