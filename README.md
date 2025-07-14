@@ -90,7 +90,7 @@ sql
 CREATE DATABASE bookstoredb;
 
 # Step 1: Clone the project
-git clone https://github.com/yourusername/bookstore-management.git
+git clone https://github.com/SHUBHAMKAMBLEA500/BookStoreManagement.io
 cd bookstore-management
 
 # Step 2: Build the project
