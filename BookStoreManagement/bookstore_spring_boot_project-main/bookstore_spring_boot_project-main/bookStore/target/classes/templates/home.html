@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.com">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .navbar {
+            background-color: #1c1c1c;
+        }
+        
+        .navbar-brand,
+        .nav-link {
+            color: #fff !important;
+            font-weight: 500;
+        }
+        
+        .nav-link:hover {
+            color: #ffc107 !important;
+        }
+        
+        .btn-outline-warning:hover {
+            background-color: #ffc107;
+            color: #000;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/bg.jpg') center center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            color: white;
+            position: relative;
+        }
+        
+        .glass-box {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 16px;
+            max-width: 700px;
+            width: 100%;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 1.2s ease-out;
+            text-align: center;
+        }
+        
+        .glass-box h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+        
+        .glass-box p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #eaeaea;
+            margin-bottom: 2rem;
+        }
+        
+        .btn-custom {
+            background-color: #ffc107;
+            color: #000;
+            padding: 0.7rem 2rem;
+            font-weight: 600;
+            border-radius: 50px;
+            border: none;
+            transition: 0.3s ease;
+        }
+        
+        .btn-custom:hover {
+            background-color: #e0a800;
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .glass-box h1 {
+                font-size: 2rem;
+            }
+            .glass-box p {
+                font-size: 1rem;
+            }
+            .glass-box {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">📚 Book Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="available_books">Available Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="my_books">My Books</a></li>
+                </ul>
+                <a class="btn btn-outline-warning" href="book_register">+ Add New Book</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="glass-box">
+            <h1>Welcome to the Book Store</h1>
+            <p>
+                📚 Dive into a world of stories, knowledge, and adventure. Whether you're a curious mind, a student, or a book lover, discover titles that match your passion.
+            </p>
+            <a href="available_books" class="btn btn-custom">Browse Books</a>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
